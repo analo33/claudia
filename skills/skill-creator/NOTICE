@@ -1,0 +1,4 @@
+skill-creator
+Copyright Anthropic, PBC. Licensed under the Apache License, Version 2.0 (see LICENSE.txt).
+
+Source: the `skill-creator` skill from Anthropic's agent skills collection, copied unmodified into AI WorkOS except for one appended section at the end of SKILL.md ("In this AI WorkOS") that tells the agent where to save skills in this workspace and how to replicate them. The Python scripts in scripts/ and eval-viewer/ are optional and require Python 3.

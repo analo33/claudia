@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+CLAUDE.local.md
+.claude/settings.local.json
+.mcp.json
+.DS_Store
+Thumbs.db
+dist/
+inbox/*
+!inbox/README.md
