@@ -15,10 +15,12 @@
 - Participa activamente en la comunidad de Pau (comunidad.metadigitales.com) y en una comunidad de inversión inmobiliaria.
 - Acaba de apuntarse al máster de Borja sobre longevidad y antiaging; aún no sabe cómo lo usará (para ella, su entorno y quizá un negocio o una audiencia).
 - La gente le pregunta a menudo por nutrición, alimentación, suplementos y deporte.
+- Mide 155 cm. Lo ve como un rasgo que puede aprovechar en positivo para un proyecto digital (nicho «petite» / personas bajitas en deporte, ropa o equipamiento).
 - Muy unida a su familia, en especial a su hermana Carla y a sus sobrinos (uno de ellos hace triatlón).
 
 ## Sources
 
+- Ana en el chat: estatura 155 cm (2026-11-10).
 - Texto de presentación pegado por Ana en el chat (2026-11-04).
 - cafeybici.com: no accesible (dominio sin respuesta, 2026-11-04).
 - https://www.linkedin.com/in/ana-l%C3%B3pez-navarro-86b749287/: no accesible (LinkedIn bloquea la lectura, 2026-11-04).
