@@ -1,6 +1,6 @@
 ---
 stage: live
-updated: 2026-11-09
+updated: 2026-11-11
 owner: Ana
 ---
 
@@ -11,13 +11,14 @@ owner: Ana
 ## Now
 
 Las dos apps están publicadas con GitHub + Vercel y en uso por el servicio.
-- AnesReg: anestreg.com. Último cambio: "Añadir rocuronio en perfusión (mg/kg/h) a mantenimiento" (2026-11-06). Entre el 5 y el 6 de noviembre: orden de general + locorregional, respuesta a la incisión con opción "No procede", dexmedetomidina en bolo con perfusión y rocuronio en perfusión.
-- La copia local de AnesReg en este Mac está al día con GitHub (actualizada el 2026-11-09).
+- AnesReg: anestreg.com. Último cambio en la app: "Añadir rocuronio en perfusión (mg/kg/h) a mantenimiento" (2026-11-06). Copia local al día con GitHub (comprobado el 2026-11-11).
+- Desde el 2026-11-11 AnesReg se trabaja entrando por CLAUDIA: la ficha es la referencia y la carpeta del código lleva una nota (AGENTS.md) que apunta aquí. Publicar siempre se propone antes.
 - URPA: repositorio `analo33/urpa`, proyecto `urpa` en Vercel. Último cambio: "Añadir Vercel Web Analytics" (2026-10-23).
 
 ## Next steps
 
-- [ ] (none) Mantenimiento continuo: aplicar las mejoras que vayan surgiendo con el uso en el servicio.
+- [ ] Subir a GitHub los dos commits del 2026-11-11 (CLAUDIA: ficha de AnesReg; repo AnesReg: nota AGENTS.md). Pendiente del sí de Ana.
+- [ ] Dar a CLAUDIA acceso permanente a la carpeta del código y configurar la vista previa de AnesReg en el navegador desde CLAUDIA.
 
 ## Active initiatives
 
