@@ -36,9 +36,11 @@ Ana y sus compañeros anestesiólogos de su servicio.
 - Dominio anestreg.com comprado en Namecheap.
 - App URPA: código local en `/Users/ana/Documents/URPA APP HIL` (se trabaja con Codex). Estructura `index.html` + `src/app.js` + `src/styles.css`, con tests en `tests/`. GitHub `analo33/urpa`; Vercel proyecto `urpa`. Las mismas reglas de seguridad aplican.
 - Reglas de seguridad antes de cambiar nada:
-  1. Se trabaja desde varios sitios (este Mac y sesiones en la nube), así que la copia local puede ir por detrás. Antes de editar o publicar: `git fetch origin` y confirmar que la copia local está al día con `main`.
-  2. Un error de sintaxis rompe la app entera en producción: comprobar el script y probar el flujo en el navegador antes de hacer commit.
-  3. Publicar (push a `main`) es una acción irreversible de cara a los compañeros: proponer antes de hacerlo.
+  1. Se trabaja desde varios sitios (este Mac y sesiones en la nube que crean ramas `claude/...` y las fusionan en `main`), así que la copia local puede ir por detrás sin avisar. Antes de editar o publicar: `git fetch origin` y confirmar que la copia local está al día con `main`. Para comprobarlo contra lo que está publicado de verdad: el último despliegue del proyecto Vercel `anestreg2` indica su commit (`githubCommitSha`); si ese commit no existe en la copia local (`git cat-file -t <sha>`), no publicar.
+  2. Un error de sintaxis rompe la app entera en producción. Editar `anesreg.html` con anclas exactas y comprobar que son únicas antes de sustituir; después validar el script extraído con `node --check` y probar el flujo en el navegador (servidor local `anesreg` de `.claude/launch.json`, puerto 8743) antes de hacer commit.
+  3. Publicar (push a `main`) es una acción irreversible de cara a los compañeros: proponer antes de hacerlo. El push funciona sin pedir contraseña (token de GitHub en el llavero del Mac).
+  4. Si hay que recuperar la versión buena: `https://www.anestreg.com/anesreg.html` devuelve el archivo publicado. Tras un rollback en Vercel, un despliegue nuevo no recupera el dominio solo: hay que promoverlo.
+  5. Nunca escribir datos de pacientes en los logs, decisiones ni en el código.
 
 ## Sources
 
