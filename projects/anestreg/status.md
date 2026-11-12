@@ -1,6 +1,6 @@
 ---
 stage: live
-updated: 2026-11-11
+updated: 2026-11-12
 owner: Ana
 ---
 
@@ -11,7 +11,7 @@ owner: Ana
 ## Now
 
 Las dos apps están publicadas con GitHub + Vercel y en uso por el servicio.
-- AnesReg: anestreg.com. Último cambio en la app: "Añadir rocuronio en perfusión (mg/kg/h) a mantenimiento" (2026-11-06). Copia local al día con GitHub (comprobado el 2026-11-11).
+- AnesReg: anestreg.com. Últimos cambios publicados (2026-11-12, commits 076de19 y 2e96477): botón fijo "Alprostadil (Sugiran) 20 mcg iv" en "Otras medicaciones", con el mismo formato que el ácido tranexámico, y "Segunda dosis de antibiótico" (No por defecto; con Sí: cefazolina 2 g, cefuroxima 1500 mg, clindamicina 600 mg y hora con botón "Ahora"). Comprobado que anestreg.com sirve esta versión.
 - Desde el 2026-11-11 AnesReg se trabaja entrando por CLAUDIA: la ficha es la referencia y la carpeta del código lleva una nota (AGENTS.md) que apunta aquí. Publicar siempre se propone antes. CLAUDIA tiene acceso permanente a la carpeta del código (`.claude/settings.local.json`, solo en este Mac) y la vista previa `anesreg` (`.claude/launch.json`, puerto 8743).
 - URPA: repositorio `analo33/urpa`, proyecto `urpa` en Vercel. Último cambio: "Añadir Vercel Web Analytics" (2026-10-23).
 
