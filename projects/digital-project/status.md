@@ -1,6 +1,6 @@
 ---
 stage: idea
-updated: 2026-11-12
+updated: 2026-11-13
 owner: Ana
 ---
 
@@ -15,6 +15,7 @@ Fase de exploración: todavía no hay idea elegida. Objetivo: un proyecto princi
 ## Next steps
 
 - [ ] Elegir una sola idea entre 3 candidatas antes del 30 de noviembre de 2026 (las 3 candidatas se preparan con Brújula al terminar la configuración).
+- [ ] Tener en cuenta las referencias de `inspiration.md` (Readwise: estética e ideas) al preparar las 3 candidatas.
 - [ ] Seguir completando `newsletters.md` y, más adelante, decidir qué hacer con el contenido de esos correos.
 - [ ] Pasar a `fuentes/` los capítulos del libro de Peter Attia que están en PDF.
 - [ ] Descargar el material adjunto del curso FISSAC "Batería biológica" y pasárselo a Brújula para guardarlo en `fuentes/`.
