@@ -9,3 +9,6 @@ Thumbs.db
 dist/
 inbox/*
 !inbox/README.md
+
+# Vídeo «pasar a la acción»: solo en este Mac
+outputs/video-pasar-a-la-accion/
