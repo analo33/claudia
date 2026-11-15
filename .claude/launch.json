@@ -6,6 +6,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8743", "--directory", "/Users/ana/CLAUDE projects 2026"],
       "port": 8743
+    },
+    {
+      "name": "sedacion-dental",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8744", "--directory", "/Users/ana/Documents/SEDACION DENTAL APP"],
+      "port": 8744
     }
   ]
 }

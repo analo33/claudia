@@ -23,11 +23,16 @@ Clínicas dentales que ofrecen sedación y sus pacientes; el equipo de anestesia
 
 | Channel | URL |
 |---|---|
-| App de preanestesia | (pending) |
+| App de preanestesia: código local | `/Users/ana/Documents/SEDACION DENTAL APP` |
+| App de preanestesia: GitHub | (pending) `analo33/sedacion-dental`, privado |
+| App de preanestesia: publicada | (pending) `sedacion-dental.vercel.app` (proyecto Vercel `sedacion-dental`) |
 
 ## Stack / platform
 
-(pending) Se decidirá al empezar la app. Regla: sin datos identificativos de pacientes en archivos, logs ni código; la app ayuda a documentar, no decide.
+- App de preanestesia: página estática HTML + JS, sin compilación ni dependencias (como URPA). Parte de la preanestesia de sedación dental de marzo de 2026 (`preanestesia-dental (14).html`). La tabla 8.3.5 vive en `src/tabla-835.js` con pruebas en `tests/`.
+- El código NO vive en CLAUDIA: esta carpeta es la ficha. Vista previa `sedacion-dental` en `.claude/launch.json` (puerto 8744). Para probarla: servidor local en el puerto 8744 y abrir http://localhost:8744 en el navegador de Ana; abierta como archivo en el panel de Claude no funciona.
+- Mismo patrón que AnesReg: GitHub + Vercel con despliegue automático al hacer push a `main`. Publicar se propone antes.
+- Regla: sin datos identificativos de pacientes en archivos, logs ni código; la app ayuda a documentar, no decide.
 
 ## Sources
 
