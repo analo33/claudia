@@ -59,6 +59,7 @@ One line per active project: `slug → what it is`. Kept current by `setup-worko
 <!-- projects:start -->
 - anestreg → web apps clínicas: AnesReg, URPA, AnestPlast
 - digital-project → búsqueda de un nuevo negocio digital rentable
+- sedacion-dental → sedación consciente en clínicas dentales y app de preanestesia
 <!-- projects:end -->
 
 ## Session start and end
